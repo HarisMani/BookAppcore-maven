@@ -93,7 +93,6 @@ public class Bookdao {
 		Connection connection = Connectionutil.getConnection();
 		String sql = "select name,id from books where name=? ";
 		PreparedStatement pst = connection.prepareStatement(sql);
-		// pst.setInt(1,Id);
 		pst.setString(1, name);
 		ResultSet rs2 = pst.executeQuery();
 		while (rs2.next()) {

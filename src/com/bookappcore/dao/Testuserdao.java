@@ -6,7 +6,7 @@ public class Testuserdao {
 	public static void main(String[] args) throws Exception {
 		User user = new User();
 		user.setEmail("har12@gmail.com");
-		user.setPassword("abc");
+		user.setPassword("ab");
 		// user.setName("as");
 
 		UserDao userdao = new UserDao();

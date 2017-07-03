@@ -10,7 +10,7 @@ public class Testbookdao {
 		book.setPrice(1000);
 
 		Bookdao bookdao = new Bookdao();
-		bookdao.addbook(book);
+		bookdao.update(book);
 	}
 
 }
